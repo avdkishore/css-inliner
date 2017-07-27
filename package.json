@@ -1,0 +1,19 @@
+{
+  "name": "css-inliner",
+  "version": "0.1.1",
+  "description": "Inline CSS into style attribute in an HTML file. Useful for HTML emails",
+  "main": "index.js",
+  "repository": "",
+  "authors": [
+    "A.V.D.Kishore <avdkishore@gmail.com>"
+  ],
+  "license": "LicenseRef-LICENSE",
+  "scripts": {
+    "start": "node index.js",
+    "test": "istanbul cover _mocha"
+  },
+  "dependencies": {
+    "inline-css": "^2.2.2"
+  },
+  "devDependencies": {}
+}
